@@ -59,7 +59,7 @@ namespace Microsoft.eShopWeb.RazorPages.Pages.Order
                 OrderNumber = order.Id,
                 ShippingAddress = order.ShipToAddress,
                 Status = "Pending",
-                Total = order.Total()
+                Total = order.Total
             };
         }
     }

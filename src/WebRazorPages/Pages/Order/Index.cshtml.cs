@@ -37,7 +37,7 @@ namespace Microsoft.eShopWeb.RazorPages.Pages.Order
                     OrderDate = o.OrderDate,
                     OrderNumber = o.Id,
                     Status = "Pending",
-                    Total = o.Total()
+                    Total = o.Total
 
                 }).ToList();
         }

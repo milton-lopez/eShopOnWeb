@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate
 {
-    public class Basket : BaseEntity, IAggregateRoot
+    public class Basket : BaseEntity
     {
         public string BuyerId { get; set; }
         private readonly List<BasketItem> _items = new List<BasketItem>();
